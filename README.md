@@ -1,7 +1,7 @@
 Fst String-to-String Map
 ========================
 
-[![Crates.IO](https://img.shields.io/crates/v/rdxl.svg)](https://crates.rs/crates/fst_stringstring)
+[![Crates.IO](https://img.shields.io/crates/v/fst_stringstring.svg)](https://crates.rs/crates/fst_stringstring)
 [![Documentation](https://img.shields.io/badge/api-rustdoc-blue.svg)](https://docs.rs/fst_stringstring)
 [![Build Nightly](https://github.com/andrew-johnson-4/fst_stringstring/workflows/BuildNightly/badge.svg)](https://github.com/andrew-johnson-4/fst_stringstring)
 [![Build](https://github.com/andrew-johnson-4/fst_stringstring/workflows/Build/badge.svg)](https://github.com/andrew-johnson-4/fst_stringstring)
