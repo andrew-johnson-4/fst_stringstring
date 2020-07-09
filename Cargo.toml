@@ -1,0 +1,13 @@
+[package]
+name = "fst_stringstring"
+version = "0.0.1"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT OR Apache-2.0"
+description = "String-to-String Map built from fst"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/fst_stringstring"
+keywords = ["string","map","compact","datastructure"]
+
+[dependencies]
+fst = "0.4"
