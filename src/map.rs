@@ -19,4 +19,10 @@ impl StringStringMap {
          Some(self.strings.get(si as usize))
       } else { None }
    }
+   pub fn len(&self) -> usize {
+      self.fst_map.len()
+   }
+   pub fn is_empty(&self) -> bool {
+      self.fst_map.is_empty()
+   }
 }
