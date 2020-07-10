@@ -10,7 +10,7 @@ fn builder1() -> std::io::Result<()> {
    assert_eq!(i1, 0);
    assert_eq!(i2, 5);
 
-   let map = StringMap::new("testy.fmm");
+   let map = StringMap::new("testy.fmm")?;
    assert_eq!( map.get(0), "abcd" );
    assert_eq!( map.get(1), "bcd" );
    assert_eq!( map.get(2), "cd" );

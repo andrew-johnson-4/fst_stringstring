@@ -11,3 +11,4 @@ keywords = ["string","map","compact","datastructure"]
 
 [dependencies]
 fst = "0.4"
+memmap = "0.7"

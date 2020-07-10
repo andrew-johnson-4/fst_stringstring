@@ -21,7 +21,7 @@ impl StringBuilder {
    pub fn insert(&mut self, s: &str) -> std::io::Result<usize> {
       Ok(if let Some(ref mut f) = self.building {
          f.write_all(s.as_bytes())?;
-         f.write_all(b"\0")?;
+         f.write(&[0])?;
          let at = self.at;
          self.at += s.len() + 1;
          at
