@@ -1,6 +1,6 @@
 [package]
 name = "fst_stringstring"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Andrew <andrew@subarctic.org>"]
 license = "MIT OR Apache-2.0"
 description = "String-to-String Map built from fst"

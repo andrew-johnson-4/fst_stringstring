@@ -24,6 +24,5 @@ fn builder1() -> std::io::Result<()> {
    assert_eq!( map.get(10), "" );
 
    std::fs::remove_file("testy.fmm")?;
-
    Ok(())
 }
