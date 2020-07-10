@@ -3,7 +3,7 @@ use fst::Map;
 use memmap::Mmap;
 
 pub struct StringStringMap {
-   fst_map: Map<Mmap>,
+   pub fst_map: Map<Mmap>,
    strings: StringMap,
 }
 
