@@ -50,8 +50,6 @@ fn mbuilder1() -> std::io::Result<()> {
 }
 ```
 
-To see an example building a [Rhyme Dictionary](https://www.subarctic.org/building_a_phonetic_rhyme_dictionary_in_rust.html), check out my blog post about it.
-
 ## Contribution
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in fst_stringstring by you,
 shall be dual licensed under the MIT and Apache 2.0 license without any additional terms or conditions.
